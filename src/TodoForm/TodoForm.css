@@ -1,0 +1,45 @@
+/* Estilo del formulario */
+.TodoForm {
+    background-color: #fff; /* Color de fondo del formulario */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .TodoForm h2 {
+    margin-bottom: 10px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  
+  .TodoForm textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+  }
+  
+  .TodoForm .button-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .TodoForm button {
+    background-color: #4caf50; /* Color de fondo del botón */
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-right: 8px;
+  }
+  
+  .TodoForm button.cancel {
+    background-color: #ff5555; /* Color de fondo del botón de cancelar */
+  }
+  
+  

@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #F2F4F5;
+  color: #1E1E1F;
+  font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+}
+
+#root {
+  margin: 0 24px;
+  position: relative;
+  min-height: 100vh;
+}
+
+body {
+  margin: 0;
+
+  animation: sweepColors 20s infinite linear;
+  background-size: 2000% 1000%;
+  transition: background-position 1s;
+}
+
+@keyframes sweepColors {
+  0%, 100% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+}
+
+/* Colores del gradiente */
+body {
+  background-image: linear-gradient(45deg,
+    #ff5733 0%, #ff8c33 5%, #ffc133 10%, #ffea33 15%, #c9ff33 20%,
+    #8cff33 25%, #33ff57 30%, #33ff8c 35%, #33ffba 40%, #338aff 45%,
+    #5733ff 50%, #8533ff 55%, #ba33ff 60%, #ff33ea 65%, #ff338c 70%,
+    #ff3360 75%, #ff3347 80%, #ff3333 85%, #ff6033 90%, #ff9533 95%,
+    #ff5733 100%, #ff8c33 105%, #ffc133 110%, #ffea33 115%, #c9ff33 120%,
+    #8cff33 125%, #33ff57 130%, #33ff8c 135%, #33ffba 140%, #338aff 145%
+  );
+}

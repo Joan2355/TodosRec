@@ -1,0 +1,25 @@
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+.loader-container {
+    text-align: center; /* Centra el contenido horizontalmente */
+    margin-top: 50px; /* Margen superior de 50px */
+  }
+  
+  .loader {
+    border: 8px solid #f3f3f3; /* Gris claro */
+    border-top: 8px solid #3498db; /* Azul */
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 1s linear infinite; /* Aplica la animación */
+    margin: auto; /* Centra el loader en el contenedor */
+  }
+  
+  .loader-container p {
+    margin-top: 10px; /* Margen superior para separar el texto del loader */
+    font-family: 'Cursive', sans-serif; /* Utiliza la fuente Cursive y, si no está disponible, usa una fuente genérica sans-serif */
+    color: #333; /* Color del texto */
+  }
+  
